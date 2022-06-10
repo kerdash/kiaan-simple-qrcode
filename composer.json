@@ -1,0 +1,25 @@
+{
+    "name": "hassankerdash/kiaan-simple-qrcode",
+    "description": "Simple QrCode is a QR code generator made for Kiaan.",
+    "keywords": ["qrcode", "kiaan", "simple", "generator", "wrapper"],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hassan kerdash",
+            "email": "kerdashhassan@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "simplesoftwareio/simple-qrcode": "*"
+    },
+    "suggest": {
+        "ext-intl": "Intl extension is useful for validating formatted numbers"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "HassanKerdash\\SimpleQrCode\\": "src"
+        }
+    }
+}
